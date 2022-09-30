@@ -63,6 +63,9 @@ pages:
     index:
       nav: home
       title: home
+  exchanges:
+    nav: exchanges
+    title: exchanges
 banners:
   welcome: hello, welcome to %{app_name}!
 others:

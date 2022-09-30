@@ -20,7 +20,11 @@ const menus = computed((): IMenuItem[] => [
   { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
   { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
   { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
-  { type: 'link', text: 'Exchanges', route: { name: 'exchanges' } },
+  {
+    type: 'link',
+    text: t('pages.exchanges.nav'),
+    route: { name: 'exchanges' },
+  },
   {
     type: 'button',
     text: t('pages.dashboard.nav'),
