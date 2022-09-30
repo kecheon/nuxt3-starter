@@ -82,13 +82,13 @@ const copyBash = () => {
           >
             <Button
               size="lg"
-              text="Nuxt 3"
+              text="Bots"
               class="font-extrabold"
               href="https://v3.nuxtjs.org"
             />
             <Button
               size="lg"
-              text="Github"
+              text="Community"
               type="secondary"
               class="font-extrabold"
               href="https://github.com/viandwi24/nuxt3-awesome-starter"
@@ -106,7 +106,9 @@ const copyBash = () => {
                 <div class="w-3 h-3 bg-green-500 rounded-full" />
                 <div class="w-3 h-3 bg-yellow-500 rounded-full" />
               </div>
-              <div class="flex-1 font-bold text-center pr-12 text-sm">BASH</div>
+              <div class="flex-1 font-bold text-center pr-12 text-sm">
+                ANNOUNCE
+              </div>
               <div class="text-sm flex justify-center items-center">
                 <div class="tooltip">
                   <button
@@ -124,7 +126,10 @@ const copyBash = () => {
               class="win-body rounded-b-lg bg-gray-200/90 dark:bg-slate-800/90 px-3 py-2 font-mono backdrop-filter backdrop-blur-lg"
             >
               <div>
-                $ git clone https://github.com/viandwi24/nuxt3-awesome-starter
+                <ul>
+                  <li>2022.09.30 BitsBee web deployed</li>
+                  <li>2022.08.01 BitsBee bot(digman) v1.0 Released</li>
+                </ul>
               </div>
             </div>
           </div>

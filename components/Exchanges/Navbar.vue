@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { IApp } from '~/utils/app'
+// import { IApp } from '~/utils/app'
 
 export interface IMenuItem {
   type: 'link' | 'button'
@@ -8,43 +8,20 @@ export interface IMenuItem {
   route?: any
 }
 
-const { t } = useLang()
-const app = useState<IApp>('app')
+// const { t } = useLang()
+// const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
-  {
-    type: 'link',
-    text: t('pages.getting-started.nav'),
-    route: { name: 'getting-started' },
-  },
-  { type: 'link', text: t('pages.blank.nav'), route: { name: 'blank' } },
-  { type: 'link', text: t('pages.test.nav'), route: { name: 'test' } },
-  { type: 'link', text: t('pages.post.nav'), route: { name: 'post' } },
-  { type: 'link', text: t('pages.setting.nav'), route: { name: 'setting' } },
-  { type: 'link', text: 'Exchanges', route: { name: 'exchanges' } },
-  {
-    type: 'button',
-    text: t('pages.dashboard.nav'),
-    route: { name: 'dashboard' },
-  },
+  { type: 'link', text: 'BINANCE', route: { path: '/exchanges/binance' } },
+  { type: 'link', text: 'BYBIT', route: { path: '/exchanges/bybit' } },
+  { type: 'link', text: 'BITGET', route: { path: '/exchanges/bitget' } },
+  { type: 'link', text: 'FTX', route: { path: '/exchanges/ftx' } },
+  { type: 'link', text: 'OKX', route: { path: '/exchanges/okx' } },
+  { type: 'link', text: 'MEXC', route: { path: '/exchanges/mexc' } },
 ])
 </script>
 
 <template>
   <BuilderNavbar>
-    <template #banner>
-      <div
-        class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
-      >
-        <span class="mr-1">
-          {{ $t('banners.welcome', { app_name: app.name }) }}
-        </span>
-        <Anchor
-          class="underline font-bold"
-          :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
-        />
-      </div>
-    </template>
     <template #menu>
       <div class="relative hidden lg:flex items-center ml-auto">
         <nav
