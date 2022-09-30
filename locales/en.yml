@@ -66,6 +66,10 @@ pages:
   exchanges:
     nav: exchanges
     title: exchanges
+    description: "users guide for crypto exchanges"
+    index:
+      nav: exchanges
+      title: exchanges
 banners:
   welcome: hello, welcome to %{app_name}!
 others:

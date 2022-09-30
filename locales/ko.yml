@@ -15,9 +15,9 @@ pages:
     description: 빈 페이지입니다
     just_blank_page_with_title: 제목이 있는 빈 페이지
   post:
-    nav: 게시하다
-    title: 게시하다
-    description: 이것은 게시물 페이지입니다
+    nav: 포스팅
+    title: 포스팅
+    description: 포스팅 페이지입니다
   test:
     nav: 테스트
     title: 테스트
@@ -66,6 +66,10 @@ pages:
   exchanges:
     nav: 거래소
     title: 거래소
+    description: 가상자산 거래소 사용법
+    index:
+      nav: 거래소
+      title: 거래소 사용법
 banners:
   welcome: 안녕하세요, %{app_name}에 오신 것을 환영합니다!
 others:
