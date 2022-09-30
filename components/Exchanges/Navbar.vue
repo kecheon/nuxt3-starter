@@ -12,11 +12,11 @@ export interface IMenuItem {
 // const app = useState<IApp>('app')
 const menus = computed((): IMenuItem[] => [
   { type: 'link', text: 'BINANCE', route: { path: '/exchanges/binance' } },
-  { type: 'link', text: 'BYBIT', route: { path: '/exchanges/bybit' } },
   { type: 'link', text: 'BITGET', route: { path: '/exchanges/bitget' } },
+  { type: 'link', text: 'BYBIT', route: { path: '/exchanges/bybit' } },
   { type: 'link', text: 'FTX', route: { path: '/exchanges/ftx' } },
-  { type: 'link', text: 'OKX', route: { path: '/exchanges/okx' } },
   { type: 'link', text: 'MEXC', route: { path: '/exchanges/mexc' } },
+  { type: 'link', text: 'OKX', route: { path: '/exchanges/okx' } },
 ])
 </script>
 

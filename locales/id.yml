@@ -8,7 +8,7 @@ pages:
   '404':
     title: halaman tidak ditemukan
   index:
-    title: nuxt 3[]luar biasa[]pemula
+    title: kripto []mengagumkan[]bitsbee
   blank:
     nav: kosong
     title: halaman kosong
@@ -42,7 +42,7 @@ pages:
         description: ketik nama pengguna github anda dan klik tombol untuk memvalidasi.
         footer: belajar lebih tentang
         footer_button: mengesahkan
-        footer_link: pengguna github api
+        footer_link: api pengguna github
       bot_id:
         title: id bot
         description: ini adalah id bot anda.
@@ -65,6 +65,9 @@ pages:
     index:
       nav: rumah
       title: rumah
+  exchanges:
+    nav: pertukaran
+    title: pertukaran
 banners:
   welcome: halo, selamat datang di %{app_name}!
 others:

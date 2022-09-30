@@ -15,3 +15,6 @@ dist
 # IDE
 .idea
 .vercel
+.firebaserc
+firebase.json
+.firebase/

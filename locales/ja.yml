@@ -8,7 +8,7 @@ pages:
   '404':
     title: ページが見つかりません
   index:
-    title: nuxt 3[]素晴らしい[]スターター
+    title: 暗号[]素晴らしい[]ビットビー
   blank:
     nav: 空欄
     title: 空白ページ
@@ -39,7 +39,7 @@ pages:
     sections:
       validate_username:
         title: github プロファイルを検証する
-        description: github ユーザー名を入力し、ボタンをクリックして検証します。
+        description: github のユーザー名を入力し、ボタンをクリックして検証します。
         footer: 詳しくはこちら
         footer_button: 検証
         footer_link: github ユーザー api
@@ -63,6 +63,9 @@ pages:
     index:
       nav: 家
       title: 家
+  exchanges:
+    nav: 交換
+    title: 交換
 banners:
   welcome: こんにちは、%{app_name} へようこそ!
 others:
